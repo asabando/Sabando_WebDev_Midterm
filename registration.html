@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <fieldset>
+    <center>
+      <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+
+  <form action="index.html" method="get">
+    <fieldset>
+      <h1>REGISTRATION FORM</h1>
+      </center>
+      <table>
+
+        <p>
+          <p style="font-family:cambria">"This is an online registration form that makes it easy to plan your next events such as conferences, workshops, or classes. Our registration form let people fill out the form from any smartphone, tablet, or computer. And this is less hassle to the users."</p>
+
+          <tr>
+            <td><b>
+                <p style="font-family:tahoma">NAME:
+              </b></td>
+        </p>
+        <td><input type="text" id="txtName" name="txtName" placeholder="First Name" />
+        <td><input type="text" id="txtName" name="txtName" placeholder="Last Name" />
+        </td>
+        </tr>
+        <tr>
+          <td><b>
+              <p style="font-family:tahoma">EMAIL:
+            </b></td>
+          </p>
+          <td><input type="text" id="txtName" name="txtName" placeholder="Enter Username" />
+        </tr>
+        <tr>
+          <td><b>
+              <p style="font-family:tahoma">Password:
+            </b></td>
+          </p>
+          <td><input type="password" id="txtPassword" name="txtPassword" placeholder="Enter Password" /></td>
+        </tr>
+        <tr>
+          <td><b>
+              <p style="font-family:tahoma">Confirm&nbsp;Password:&nbsp;
+            </b></td>
+          </p>
+          <td><input type="password" id="txtPassword" name="txtPassword" placeholder="Enter Confirm Password" /></td>
+        </tr>
+        <tr>
+          <td>
+            <p style="font-family:tahoma"><b>GENDER:</b>
+          </td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+
+            <form action="/action_page.php">
+              <b>
+                <p style="font-family:tahoma">
+                  <labelfor="birthday">Birthday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+              </b>
+              <input type="date" id="birthday" name="birthday">
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p style="font-family:tahoma">
+              <b>Position Title: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+
+              <select name="drpLoginType" id="drpLoginType">
+                <option value="Guest">Guest</option>
+                <option value="Admin">Parent</option>
+                <option value="SuperUser">Student</option>
+                <option value="Business Owner">Professor</option>
+              </select>
+
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="3">
+            <p style="font-family:tahoma">
+              <input type="checkbox" id="cbxPolicy1" name="cbxPolicy1" value="By clicking you agree to accept our terms & conditions, that you are over 18+ & you are aware of our responsible working policy!" />
+              <label for="cbxPolicy1">By creating an account you agree to accept our <b>terms & conditions</b>, that you are over 18+ & you are aware of our <b>policy!</b></label>
+          </td>
+        </tr>
+        </p>
+        <tr>
+          <td colspan="2" align="right">
+            <button type="reset" value="Reset">Reset</button>
+            <button type="button" onclick="alert('REGISTRATION COMPLETED!')">Submit</button>
+          </td>
+          </td>
+        </tr>
+
+        </td>
+      </table>
+    </fieldset>
+
+  </form>
+</body>
+
+</html>
