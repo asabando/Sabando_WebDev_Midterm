@@ -5,26 +5,8 @@
         <meta charset="utf-8">
     </head>
     <body>
+      <center>
 		<div class="calendar">
-
-			<div class="col leftCol">
-				<div class="content">
-					<h1 class="date">Friday<span>May 19th</span></h1>
-					<div class="notes">
-						<p>
-							<input type="text" value="" placeholder="new note"/>
-							<a href="#" title="Add note" class="addNote animate">+</a>
-						</p>
-						<ul class="noteList">
-							<li>Happy birthday!<a href="#" title="Remove note" class="removeNote animate">x</a></li>
-						</ul>
-            <ul class="noteList">
-							<li>Enjoy your day!<a href="#" title="Remove note" class="removeNote animate">x</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
 			<div class="col rightCol">
 				<div class="content">
 					<b><h2 class="year" style="color:#7A5CDF; text-align:center; font-size:50px"> MAY 2000</h2></b>
@@ -94,6 +76,7 @@
 			<div class="clearfix"></div>
 
 		</div>
+        </center>
          </body>
   <style>
   *{
@@ -102,7 +85,7 @@
 }
 
 body{
-        background-image: url("taurus.png");
+        background-image: url("taurus.jpeg");
         background-repeat: repeat;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -174,55 +157,6 @@ a{
 	list-style: none;
 }
 
-.calendar .leftCol{
-	width: 40%;
-	background-color: #B3A6DE;
-}
-
-.calendar .noteList li{
-	color: #ffffff;
-	margin-bottom: 10px;
-}
-
-.calendar .notes p,
-.calendar .notes input,
-.calendar .noteList li{
-	font-weight: 300;
-	font-size: 17px;
-}
-
-.calendar .notes p{
-	border-bottom: solid 2px rgba(255,255,255,0.4);
-}
-
-.calendar .notes input{
-	background-color: #B3A6DE;
-	color: #ffffff;
-	border: none;
-	width: 200px;
-}
-
-.calendar .addNote,
-.calendar .removeNote{
-	float: right;
-	color: rgba(255,255,255,0.4);
-	font-weight: bold;
-	margin-left: 20px;
-}
-
-.calendar .addNote:hover,
-.calendar .removeNote:hover{
-	color: #ffffff;
-}
-
-.calendar .addNote{
-	font-size: 15px;
-}
-
-.calendar .leftCol h1{
-	color: #ffffff;
-	margin-bottom: 40px;
-}
 
 .calendar .rightCol{
 	width: 60%;
